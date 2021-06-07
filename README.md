@@ -7,4 +7,4 @@ I've included some games here. You can run one like this: ```cargo run games/INV
 
 ## Acknowledgements
 
-I'm a huge noob. And this is my first time. I copied codes cartridge, display, input from <https://github.com/starrhorne/chip8-rust>
+I'm a huge noob. And this is my first time. I copied codes for font, display, input from <https://github.com/starrhorne/chip8-rust>
