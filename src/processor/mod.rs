@@ -104,7 +104,6 @@ impl Processor {
     }
 
     fn get_opcode(&self) -> u16 {
-        let b = (self.memory[self.pc] as u16) << 8 | (self.memory[self.pc + 1] as u16);
         (self.memory[self.pc] as u16) << 8 | (self.memory[self.pc + 1] as u16)
     }
 
