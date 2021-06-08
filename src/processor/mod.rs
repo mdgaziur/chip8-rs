@@ -287,6 +287,7 @@ impl Processor {
     fn op8x0e(&mut self, x: usize) {
         self.registers[0x0f] = (self.registers[x] & 0b10000000) >> 7;
         self.registers[x] <<= 1;
+        self.pc_next();
     }
 
     fn op9xy0(&mut self, x: usize, y: usize) {
