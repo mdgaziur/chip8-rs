@@ -8,3 +8,8 @@ I've included some games here. You can run one like this: ```cargo run games/INV
 ## Acknowledgements
 
 I'm a huge noob. And this is my first time. I copied codes for font, display, input from <https://github.com/starrhorne/chip8-rust>
+
+
+## Notes
+
+This program has some bugs that causes the chip8 programs to not get interpreted correctly. Unfortunately, I've lost the interest in this project so it won't get fixed soon. If you are interested and made a fix for that, I'll be happy to accept a PR.
